@@ -79,7 +79,7 @@ jobs:
   
     - name: 下载源码
       run: |
-        git clone --depth=1 https://github.com/chongshengB/rt-n56u.git ${{ env.DIR }}  > /dev/null
+        git clone --depth=1 https://github.com/yunyuhao123aoiz/rt-n56u.git ${{ env.DIR }}  > /dev/null
         cd ${{ env.DIR }}/toolchain-mipsel
         sh dl_toolchain.sh > /dev/null
         pwd
